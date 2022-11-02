@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Generando Codigo QR</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <a href="home"><ion-button size="small" color="danger">Cerrar sesion</ion-button></a>
+  <br>
+  <br>
+  <br>
+  <ion-tab-button (click)="takepicture()">
+    <ion-icon name="camera"></ion-icon>
+    <ion-label>Abrir camara</ion-label>
+    <img [src]="picture">
+  </ion-tab-button>
+  
+  
+  <a href="tercerapagina"><ion-button slot="end" size="small" color=""><ion-icon slot="start" name="arrow-back"></ion-icon>Volver</ion-button></a>
+</ion-content>

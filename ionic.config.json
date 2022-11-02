@@ -1,0 +1,7 @@
+{
+  "name": "Aplicacion_mov_RegistrAPP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
